@@ -1,0 +1,37 @@
+.logo {
+  position: absolute;
+  top: calc(50% - 50px);
+  left: calc(50% - 50px);
+  width: 100px;
+  height: 100px;
+  background-color: #333;
+  transform: rotate(45deg);
+  border-radius: 2px;
+}
+.E {
+  position: absolute;
+  top: 36px;
+  left: 23px;
+  color: white;
+  font-size: 60px;
+  font-family: hg;
+  transform: rotate(-45deg);
+}
+.A {
+  position: absolute;
+  top: -2px;
+  left: 39px;
+  color: white;
+  font-size: 60px;
+  font-family: hg;
+  transform: rotate(-45deg);
+}
+.text {
+  position: absolute;
+  right: -8px;
+  top: 50px;
+  color: white;
+  font-size: 25px;
+  font-family: happy;
+  transform: rotate(-70deg);
+}

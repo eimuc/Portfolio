@@ -1,0 +1,58 @@
+.resume-inner {
+  display: inline-block;
+  width: 100%;
+  position: relative;
+}
+.resume-inner > .cv {
+  width: 100%;
+  margin-top: 10px;
+  margin-left: 2.5%;
+}
+.resume-inner > .cv > img {
+  width: 95%;
+}
+
+.download {
+  background: #333;
+  border-color: transparent;
+  color: #fff;
+  font-size: 15px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  height: 50px;
+  margin-left: calc((100% - 194px) / 2);
+  margin-bottom: 50px;
+  border-radius: 18px;
+  box-shadow: 0 0 12px #0002;
+  text-transform: uppercase;
+  padding: 10px 20px;
+  text-decoration: none;
+}
+
+.download:hover {
+  background: #a1ffce; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #faffd1,
+    #a1ffce
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #faffd1,
+    #a1ffce
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  color: #333;
+  cursor: pointer;
+  transition: 1s;
+}
+
+.fullwidth {
+  width: 100%;
+  margin-bottom: 40px;
+}
+
+@media (max-width: 400px) {
+  .resume-inner > .cv > img {
+    margin-bottom: 30px;
+  }
+}

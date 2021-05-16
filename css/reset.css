@@ -1,0 +1,38 @@
+body,
+body * {
+  margin: 0;
+  padding: 0;
+  vertical-align: top;
+  box-sizing: border-box;
+  font-family: metropolis, sans-serif;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+@font-face {
+  font-family: "happy";
+  src: url(../fonts/Stay-Happy.ttf) format("truetype");
+  font-style: normal;
+}
+@font-face {
+  font-family: "hg";
+  src: url(../fonts/Hanged\ Letters.ttf) format("truetype");
+  font-style: normal;
+}
+@font-face {
+  font-family: "bebas";
+  src: url(../fonts/Bebas.ttf) format("truetype");
+  font-style: normal;
+}
+@font-face {
+  font-family: "metropolis";
+  src: url(../fonts/Metropolis-Bold.otf) format("opentype");
+  font-style: normal;
+}
+@font-face {
+  font-family: "metropolis-reg";
+  src: url(../fonts/metropolis.regular.otf) format("opentype");
+  font-style: normal;
+}

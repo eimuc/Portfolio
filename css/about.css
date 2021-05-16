@@ -1,0 +1,135 @@
+.about-inner {
+  display: flex;
+  flex-flow: wrap;
+  position: relative;
+}
+
+.left-about {
+  width: 50%;
+}
+.left-about > img {
+  margin-left: calc((100% - 400px) / 2);
+  margin-top: 10px;
+  width: 400px;
+  border-radius: 50px;
+}
+
+.right-about {
+  width: 50%;
+}
+
+.right-about h2 {
+  font-size: 30px;
+  color: #333;
+  font-family: bebas;
+}
+
+.about-text {
+  font-size: 20px;
+  color: #333;
+  font-family: metropolis-thin;
+  margin-bottom: 50px;
+  width: 400px;
+}
+
+.skills > img {
+  width: 45px;
+  height: 45px;
+  margin: 0 20px 50px 0;
+}
+
+.social > .sociallinks > a > .fa:hover {
+  transform: scale(1.2);
+}
+
+.social > .sociallinks > a > .fa {
+  font-size: 35px;
+  color: #333;
+  margin: 0 20px 50px 0;
+}
+
+.social > .sociallinks > a > .fa-linkedin-square {
+  color: #0073b1;
+}
+.social > .sociallinks > a > .fa-github {
+  color: black;
+}
+.social > .sociallinks > a > .fa-instagram {
+  color: #f09433;
+}
+.social > .sociallinks > a > .fa-facebook-square {
+  color: #3b5998;
+}
+
+.line {
+  width: 90%;
+  height: 6px;
+  background: #a1ffce;
+  background: -webkit-linear-gradient(to right, #a1ffce, #faffd1);
+  background: linear-gradient(to right, #a1ffce, #faffd1);
+  margin-bottom: 50px;
+  border-radius: 3px;
+}
+
+@media (max-width: 900px) {
+  .right-about {
+    width: 100%;
+    margin-left: 10%;
+  }
+  .left-about {
+    display: none;
+  }
+  .left-about > img {
+    margin-left: calc((100% - 300px) / 2);
+    width: 300px;
+  }
+  .right-about > .short-about > h2,
+  .right-about h2 {
+    text-align: center;
+  }
+  .about-text {
+    margin-left: calc((100% - 400px) / 2);
+  }
+  .social > .sociallinks {
+    margin-left: calc((100% - 220px) / 2);
+  }
+}
+
+@media (max-width: 500px) {
+  .right-about > .short-about {
+    width: 100%;
+  }
+  .right-about > .short-about > h2,
+  .right-about h2 {
+    font-size: 30px;
+  }
+  .about-text > p {
+    text-align: center;
+    width: 370px;
+    font-size: 18px;
+    margin-bottom: 50px;
+  }
+  .skills > img {
+    width: 35px;
+    height: 35px;
+    margin: 0;
+    margin-left: 20px;
+    margin-bottom: 50px;
+  }
+  .social > .sociallinks {
+    margin-left: 70px;
+  }
+  .social > .sociallinks > a > .fa {
+    font-size: 35px;
+    margin: 0;
+    margin-left: 20px;
+    margin-bottom: 50px;
+  }
+  .title {
+    width: 430px;
+    margin-left: calc((100% - 430px) / 2);
+  }
+  .line {
+    width: 80%;
+  }
+}
